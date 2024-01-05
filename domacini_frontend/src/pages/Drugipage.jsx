@@ -7,7 +7,7 @@ function DrugiPage() {
     return (
         <div>
             <p>Welcome to Drugi page!</p>
-            <button onClick={() => navigate("/homepage")}>Go back to home page</button>
+            <button onClick={() => navigate("/")}>Go back to home page</button>
         </div>
     )
 }
