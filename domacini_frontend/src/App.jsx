@@ -9,8 +9,13 @@ function App() {
   return (
     <>
       <div>
-        <p>React App SUIIIIIIIIII</p>
+        <p>
+          SUII
+        </p>
+        <button onClick={() => setCount((count) => count = count + 1)}>SUI BUTTON</button>
+        <p>Sui counter {count}</p>
       </div>
+      
     </>
   )
 }
