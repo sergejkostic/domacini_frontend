@@ -1,23 +1,17 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import HomePage from "./pages/Homepage";
+import DrugiPage from "./pages/Drugipage";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <p>
-          SUII
-        </p>
-        <button onClick={() => setCount((count) => count = count + 1)}>SUI BUTTON</button>
-        <p>Sui counter {count}</p>
-      </div>
-      
-    </>
-  )
-}
+        <BrowserRouter>
+            <Routes>
+              <Route path="homepage" element={<HomePage/>} />
+              <Route path ="drugipage" element={<DrugiPage/>} />
+            </Routes>
+        </BrowserRouter>
+      );
+  }
 
-export default App
+export default App;
