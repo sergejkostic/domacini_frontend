@@ -1,55 +1,9 @@
 .main-container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    padding-left: 50px;
     height: 100%;
 }
-.title-container{
-    display: flex;
-    justify-content: center;
-    background-color: darkgray;
-    border:2px solid black;
-    border-radius: 1rem;
-    margin-bottom:30px;
-    
-    
-}
-.naslov1{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: darkgray;
-    border:2px solid black;
-    border-radius: 1rem;
-    
-}
-.naslov2{
-    flex-direction:column;
-    display: flex;
-    justify-content: center;
-    background-color: darkgray;
-    border:2px solid black;
-    border-radius: 1rem;
-   
-}
-.naslov3{
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    background-color: darkgray;
-    border:2px solid black;
-    border-radius: 1rem;
-    
-}
-.vsabesedila{
-    background-color: lightslategray;
-    color: beige;   
-    font-size: large;
-    font-weight: bold;
-}
-p{
-    margin: 0;
-    flex-direction: column;
-    margin-bottom:30px;
 
-}
+
+

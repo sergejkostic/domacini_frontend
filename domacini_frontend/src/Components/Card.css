@@ -1,0 +1,13 @@
+.card-main-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+}
+
+h2 {
+    font-weight: 1000
+}
+
+p {
+    margin: 0px;
+}
