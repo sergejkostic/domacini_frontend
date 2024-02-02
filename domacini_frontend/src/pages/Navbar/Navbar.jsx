@@ -7,11 +7,7 @@ function Navbar() {
     
     return (
         <div className="navbar_container">
-            <ul>
-                <li>
-                    <button type="button" class="btn btn-dark">Dark</button>
-                </li>
-            </ul>
+            <button onClick={() => navigate("/celcerpage")}>Take me to celcer page</button>
         </div>
     )
 }
