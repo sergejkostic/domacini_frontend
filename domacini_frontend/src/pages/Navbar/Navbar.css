@@ -3,13 +3,6 @@
     flex-direction: row;
     padding: 20px 0px;
     margin: 0 auto;
-    max-width: 900px;
     width: 100%;
-}
-
-ul li button {
-    background-color: wheat;
-    color: #242424;
-    margin-left: 10px;
-    width: 100px;
+    justify-content: center;
 }

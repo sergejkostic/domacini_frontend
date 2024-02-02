@@ -9,13 +9,7 @@ function Navbar() {
         <div className="navbar_container">
             <ul>
                 <li>
-                    <button>sedi</button>
-                    <button>dole</button>
-                    <button>siso</button>
-                    <button>nemoj</button>
-                    <button>da</button>
-                    <button>si</button>
-                    <button>vrisno</button>
+                    <button type="button" class="btn btn-dark">Dark</button>
                 </li>
             </ul>
         </div>
