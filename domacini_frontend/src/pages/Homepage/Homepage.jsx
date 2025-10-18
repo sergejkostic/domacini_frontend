@@ -6,7 +6,8 @@ function HomePage() {
     
     return (
         <div className="main_container">
-                   
+            <div className="main_container"></div>
+            <div className="main_container"></div>
         </div>
     )
 }
