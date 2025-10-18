@@ -11,6 +11,7 @@ function HomePage() {
                    
         </div><div className="main_container">
                            </div><div className="main_container">
+        </div><div className="main_container">
 
         </div>
         </div>
