@@ -6,6 +6,11 @@ function HomePage() {
     
     return (
         <div className="main_container">
+            <div>
+                <div>
+                    <p>HELOOOOOOOO</p>
+                </div>
+            </div>
                    
         </div>
     )
