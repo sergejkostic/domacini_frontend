@@ -12,10 +12,6 @@ function HomePage() {
             <Card title="swizz "text="not goated"/>
             <Card title="hoodied "text="shiet"/>
             <Card title="xegi "text="goat the best ever"/>
-            <Card title="hoodied "text="shiet"/>
-            <Card title="xegi "text="goat the best ever"/>
-            <Card title="hoodied "text="shiet"/>
-            <Card title="xegi "text="goat the best ever"/>
         </div>
     )
 }
