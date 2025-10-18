@@ -6,8 +6,12 @@ function HomePage() {
     const navigate = useNavigate();
     
     return (
+        <div className="main_container">     
         <div className="main_container">
                    
+        </div><div className="main_container">
+                   
+        </div>
         </div>
     )
 }
